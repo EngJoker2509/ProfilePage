@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- main -->
+    <div id="main">
+
+        <div id="Profile-div">
+            <div id="nav-bar">
+                <ul>
+                    <li>
+                        <h1>Profile</h1>
+                    </li>
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+            </div>
+            <div><button id="submit">
+                    <h3>Sign Out</h3>
+                </button></div>
+        </div>
+
+        <div id="bigDiv">
+
+            <div id="flex-container-education">
+
+                <div id="flex-container">
+
+                    <!-- user info card -->
+                    <div id="user-card">
+                        <div id="card-header">
+                            <img src="user-circle.png" alt="user-circle" id="avatar-m">
+                        </div>
+                        <div id="card-body">
+                            <h1 class="username">Jane Doe</h1>
+                            <h3>
+                                <img src="map-marker.png" alt="pin" id="icon-s">
+                                Seattle
+                            </h3>
+                            <p>Developer | Engineer | Problem Solver<br>
+                                Master of shadows and the Internet!</p>
+
+                            <a href="#" onclick="ChangeName()">
+                                <img src="gear.png" alt="gear" id="icon-s">
+                                Edit profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="education">
+                    <div id="header">
+                        <h1>Education</h1>
+                    </div>
+                    <div id="body">
+                        <p class="thick">Coding Dojo - Full StackBootcamp</p>
+                        <p class="thicker">Dev 2019 - Mar 2020</p>
+                        <p class="normal"> Triple black belt in python,MERN,and C#...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="connectionDiv">
+                <div id="ConnectonRequest">
+
+                    <div id="header">
+                        <h1><span class="numbercircle req">2</span> Connection Requests</h1>
+                    </div>
+
+                    <div class="user one">
+                        <div>
+                            <img src="todd-s.jpg" alt="toddE">
+                        </div>
+                        <div>
+                            <p>todd E</p>
+                        </div>
+                        <div class="turefalse">
+                            <img onclick="add()"  src="Ture.png" style="width:25px; height:25px;" alt="Ture">
+                            <img  onclick="remove()" src="False.png" style="width:20px; height:20px;" alt="False">
+                        </div>
+                    </div>
+
+                    <div class="user two">
+                            <div>
+                                <img src="phil-s.jpg" alt="Phil">
+                            </div>
+                            <div>
+                                <p>Phil K</p>
+                            </div>
+                            <div class="turefalse">
+                                <img  onclick="add1()" src="Ture.png" style="width:25px; height:25px;" alt="Ture">
+                                <img  onclick="remove1()"  src="False.png" style="width:20px; height:20px;" alt="False">
+                            </div>
+                        </div>
+                </div>
+
+                <div id="yourConnetion">
+                    <div id="header">
+                        <h1><span class="numbercircle conn">418</span> Your Connections</h1>
+                    </div>
+
+                    <div id="user2">
+                        <div>
+                            <img src="adrien-s.jpg" alt="adrien">
+                        </div>
+                        <div>
+                            <p>Adrien A</p>
+                        </div>
+                    </div>
+
+                    <div id="user2">
+                        <div>
+                            <img src="anne-s.jpg" alt="anne">
+                        </div>
+                        <div>
+                            <p>Anne J</p>
+                        </div>
+                    </div>
+                    <div id="user2">
+                        <div>
+                            <img src="alayne-s.jpg" alt="alayne">
+                        </div>
+                        <div>
+                            <p>Alayne A</p>
+                        </div>
+                    </div>
+                    <div id="user2">
+                        <div>
+                            <img src="arry-s.jpg" alt="arry">
+                        </div>
+                        <div>
+                            <p>Arry J</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

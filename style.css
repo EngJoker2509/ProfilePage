@@ -1,0 +1,247 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 1300px;
+    height: 660px;
+    display: block;
+}
+
+#Profile-div {
+    background-color: black;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#nav-bar ul {
+    margin-left: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar ul li {
+    margin: 5px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+#submit {
+    color: white;
+    background-color: #17a2b8;
+    border: 2px solid #3a81e6;
+    border-radius: 50%px;
+    width: 100px;
+    margin-left: 230px;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+#flex-container {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 460px;
+}
+
+#user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+#card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+#card-body {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#card-body h1,
+#card-body h2,
+#card-body h3,
+#card-body p {
+    margin: 20px 0px;
+}
+
+#avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 140px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#icon-s {
+    height: 15px;
+    margin-top: -5px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+#education {
+    width: auto;
+    margin-top: 5px;
+    height: 100px;
+    border: 2px solid silver;
+}
+
+#header {
+    width: auto;
+    height: 40px;
+    background-color: aquamarine;
+    color: white;
+}
+
+#header h1 {
+    margin-left: 25px;
+    font-size: large;
+    padding: 8px;
+}
+
+#body {
+    width: auto;
+    height: 80px;
+    background-color: white;
+}
+
+#body p {
+    padding: 0px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 100;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+#flex-container-education {
+    width: 450px;
+    height: 500px;
+    display: block;
+    margin-left: 200px;
+}
+
+#connectionDiv {
+    width: 250px;
+    height: 500px;
+    display: block;
+    margin-left: 40px;
+}
+
+#bigDiv {
+    display: flex;
+    height: 600px;
+    width: auto;
+    margin-top: 20px;
+}
+
+#ConnectonRequest {
+    width: auto;
+    height: 160px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    display: block;
+    border: 1px solid black;
+}
+
+#ConnectonRequest img {
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+}
+
+#yourConnetion {
+    width: auto;
+    height: 350px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    display: block;
+    border: 1px solid black;
+}
+
+#yourConnetion img {
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+}
+
+#ConnectonRequest .user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+#yourConnetion #user2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 8px;
+}
+
+#user2 img {
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.numbercircle {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    padding: 4px;
+    background: cyan;
+    border: 3px normal #666;
+    color: #666;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+}
+.turefalse{
+    display: flex;
+}
+
+.one{
+    display: none;
+}
+.two{
+    display: none;
+}
+#req{
+    display: none;
+}
+#conn{
+    display: none;
+}
